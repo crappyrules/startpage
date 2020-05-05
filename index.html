@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Tab</title>
+  <meta charset="utf-8"/>
+  
+  <link type="text/css" rel="stylesheet" href="./assets/css/style.css" media="screen, projection"/>
+  <script src="./assets/js/iconify.js" type="text/javascript"></script>
+  <script src="./assets/js/jquery.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+    
+  <main id="container" class="fade">
+    <section id="header">
+      <h1 id="header-time">00:00</h1>
+      <h2 id="header-date">Date</h2>
+      <div id="header-quote">Thinking</div>
+      <div class="randompic"> </div>
+      <div class="search">
+          Google search <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" placeholder="Search">
+          </form>
+        </div>
+    </section>
+    <section id="apps">
+      <h3>> Frequent Websites</h3>
+      <div id="apps-container">
+        <a id="link" class="apps-item" href="https://boards.4chan.org/pol/catalog">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-4chan"></span>
+          </div>
+          <div class="apps-text">
+            <span>/pol/</span>
+            <span>4chan.org</span>
+          </div>
+        </a>
+		<a id="link" class="apps-item" href="https://tradeogre.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-tradeogre"></span>
+          </div>
+          <div class="apps-text">
+            <span>pumpogre</span>
+            <span>tradeogre.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://twitter.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-twitter"></span>
+          </div>
+          <div class="apps-text">
+            <span>Twitter</span>
+            <span>twitter.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://hub.docker.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-docker"></span>
+          </div>
+          <div class="apps-text">
+            <span>Docker Hub</span>
+            <span>docker.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://ebay.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-ebay"></span>
+          </div>
+          <div class="apps-text">
+            <span>ebay</span>
+            <span>ebay.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://mail.google.com/mail/u/0/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-google"></span>
+          </div>
+          <div class="apps-text">
+            <span>Gmail</span>
+            <span>gmail.com</span>
+          </div>
+        </a>
+        <a class="apps-item" onclick="location.href='https://discord.com/channels/@me';">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-discord"></span>
+          </div>
+          <div class="apps-text">
+            <span>Discord</span>
+            <span>discord.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://github.com/crappyrules">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-github"></span>
+          </div>
+          <div class="apps-text">
+            <span>Github</span>
+            <span>github.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://hackernoon.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-hackernoon"></span>
+          </div>
+          <div class="apps-text">
+            <span>hackernoon</span>
+            <span>hackernoon.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://protonmail.com/login">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-at"></span>
+          </div>
+          <div class="apps-text">
+            <span>Protonmail</span>
+            <span>protonmail.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://.amazon.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-amazon"></span>
+          </div>
+          <div class="apps-text">
+            <span>amazon</span>
+            <span>amazon.com</span>
+          </div>
+        </a>
+        <a id="link" class="apps-item" href="https://stackoverflow.com/">
+          <div class="apps-icon">
+            <span class="iconify icon" data-icon="mdi-stackoverflow"></span>
+          </div>
+          <div class="apps-text">
+            <span>overflow</span>
+            <span>stackoverflow.com</span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="links">
+      <a id="togglebookmarks"><h3>> Bookmarks</h3></a>
+      <div id="links-container">
+        <div class="links-item">
+          <h4>home</h4>
+          <a id="link" href="https://">ESXI</a>
+          <a id="link" href="http://">OMV</a>
+          <a id="link" href="http://">OMV Portainer</a>
+          <a id="link" href="http://127.0.0.1:9000">Local Portainer</a>
+          <a id="link" href="http:///web/index.html#">Homerserver Plex</a>
+        </div>
+        <div class="links-item">
+          <h4>stuff</h4>
+          <a id="link" href="https://chat.google.com/">Hangouts</a>
+          <a id="link" href="https://cloud.google.com/">GCP</a>
+          <a id="link" href="https://aws.amazon.com/">AWS</a>
+        </div>
+        <div class="links-item">
+          <h4>4chan</h4>
+          <a id="link" href="https://boards.4channel.org/fit/catalog">/fit/ - Fitness</a>
+          <a id="link" href="https://boards.4channel.org/biz/catalog">/biz/ - Business & Finance</a>
+          <a id="link" href="https://boards.4channel.org/g/catalog">/g/ - Technology</a>
+        </div>
+        <div class="links-item">
+          <h4>IDRAC</h4>
+		      <a id="link" href="https://">r420a</a>
+          <a id="link" href="https://">r420b</a>
+          <a id="link" href="https://">r510</a>
+          <a id="link" href="https://">r515</a>
+          <a id="link" href="https://">r520</a>
+        </div>
+        <div class="links-item">
+          <h4>network</h4>
+          <a id="link" href="http://:8010">phpipam</a>
+          <a id="link" href="http://">Router</a>
+          <a id="link" href="http:/">AOD</a>
+          <a id="link" href="http://">MFE</a>
+          <a id="link" href="http:/">Juniper Switch</a>
+        </div>
+        <div class="links-item">
+          <h4>Finance</h4>
+          <a id="link" href="https://">Bank</a>
+          <a id="link" href="https://coinbase.com/">Cuckbase</a>
+          <a id="link" href="https://pro.coinbase.com/">GDAX</a>
+        </div>
+        <div class="links-item">
+          <h4>Web Hosting</h4>
+          <a id="link" href="https://">Website</a>
+          <a id="link" href="https://my.vultr.com">VPS</a>
+          <a id="link" href="https://www.namesilo.com/">namesilo</a>
+        </div>
+        <div class="links-item">
+          <h4>Other</h4>
+          <a id="link" href="https://imgur.com/">Imgur</a>
+          <a id="link" href="https://www.color-hex.com/">Color-Hex</a>
+          <a id="link" href="https://"></a>
+        </div>
+        <div id="hiddenbookmarks" style="display: none;">
+          <div class="links-item">
+            <h4>Forums</h4>
+            <a id="link" href="https://">FFF</a>
+            <a id="link" href="https://">FFF</a>
+            <a id="link" href="https://linustechtips.com/main/">LTT</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./assets/js/script.js" type="text/javascript"></script>
+</body>
+</html>
